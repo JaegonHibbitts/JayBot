@@ -1,0 +1,6 @@
+source;share/jaybot_pkg/hook/pythonpath.ps1
+source;share/jaybot_pkg/hook/pythonpath.dsv
+source;share/jaybot_pkg/hook/pythonpath.sh
+source;share/jaybot_pkg/hook/ament_prefix_path.ps1
+source;share/jaybot_pkg/hook/ament_prefix_path.dsv
+source;share/jaybot_pkg/hook/ament_prefix_path.sh

@@ -1,0 +1,56 @@
+[1.229s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/jaegon/jaybot_ws']
+[1.230s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/jaegon/jaybot_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaee6e2f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffffaf005f60>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffffaf005f60>>)
+[3.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.268s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jaegon/jaybot_ws'
+[3.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extensions ['ignore', 'ignore_ament_install']
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'ignore'
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'ignore_ament_install'
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extensions ['colcon_pkg']
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'colcon_pkg'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extensions ['colcon_meta']
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'colcon_meta'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extensions ['ros']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'ros'
+[3.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extensions ['cmake', 'python']
+[3.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'cmake'
+[3.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'python'
+[3.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extensions ['python_setup_py']
+[3.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws) by extension 'python_setup_py'
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/build) by extension 'ignore'
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/build) ignored
+[3.541s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[3.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/install) by extension 'ignore'
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/install) ignored
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/log) by extension 'ignore'
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/log) ignored
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'ignore'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'ignore_ament_install'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extensions ['colcon_pkg']
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'colcon_pkg'
+[3.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extensions ['colcon_meta']
+[3.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'colcon_meta'
+[3.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extensions ['ros']
+[3.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'ros'
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extensions ['cmake', 'python']
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'cmake'
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'python'
+[3.556s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extensions ['python_setup_py']
+[3.556s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src) by extension 'python_setup_py'
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extension 'ignore'
+[3.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extension 'ignore_ament_install'
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extensions ['colcon_pkg']
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extension 'colcon_pkg'
+[3.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extensions ['colcon_meta']
+[3.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extension 'colcon_meta'
+[3.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extensions ['ros']
+[3.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jaegon/jaybot_ws/src/jaybot_pkg) by extension 'ros'
+[3.585s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jaegon/jaybot_ws/src/jaybot_pkg' with type 'ros.ament_python' and name 'jaybot_pkg'
+[3.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

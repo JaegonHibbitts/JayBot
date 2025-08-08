@@ -1,0 +1,7 @@
+[console_scripts]
+ackermann_node = jaybot_pkg.steering.ackermann_node:main
+camera_node = jaybot_pkg.camera.camera_node:main
+encoder_node = jaybot_pkg.encoders.encoder_node:main
+hardware_interface_node = jaybot_pkg.hardware.hardware_interface_node:main
+sonar_node = jaybot_pkg.sonar.sonar_node:main
+

@@ -1,0 +1,76 @@
+running egg_info
+creating ../../build/jaybot_pkg/jaybot_pkg.egg-info
+writing ../../build/jaybot_pkg/jaybot_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/jaybot_pkg/jaybot_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/jaybot_pkg/jaybot_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/jaybot_pkg/jaybot_pkg.egg-info/requires.txt
+writing top-level names to ../../build/jaybot_pkg/jaybot_pkg.egg-info/top_level.txt
+writing manifest file '../../build/jaybot_pkg/jaybot_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/jaybot_pkg/jaybot_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/jaybot_pkg/jaybot_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg
+copying jaybot_pkg/__init__.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/camera
+copying jaybot_pkg/camera/__init__.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/camera
+copying jaybot_pkg/camera/camera_node.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/camera
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/steering
+copying jaybot_pkg/steering/__init__.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/steering
+copying jaybot_pkg/steering/ackermann_node.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/steering
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/hardware
+copying jaybot_pkg/hardware/__init__.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/hardware
+copying jaybot_pkg/hardware/hardware_interface_node.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/hardware
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/sonar
+copying jaybot_pkg/sonar/__init__.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/sonar
+copying jaybot_pkg/sonar/sonar_node.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/sonar
+creating /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/encoders
+copying jaybot_pkg/encoders/encoder_node.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/encoders
+copying jaybot_pkg/encoders/__init__.py -> /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/encoders
+running install
+running install_lib
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/camera
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/camera/__init__.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/camera
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/camera/camera_node.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/camera
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/steering
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/steering/__init__.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/steering
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/steering/ackermann_node.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/steering
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/__init__.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/hardware
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/hardware/__init__.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/hardware
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/hardware/hardware_interface_node.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/hardware
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/sonar
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/sonar/__init__.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/sonar
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/sonar/sonar_node.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/sonar
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/encoders
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/encoders/encoder_node.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/encoders
+copying /home/jaegon/jaybot_ws/build/jaybot_pkg/build/lib/jaybot_pkg/encoders/__init__.py -> /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/encoders
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/camera/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/camera/camera_node.py to camera_node.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/steering/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/steering/ackermann_node.py to ackermann_node.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/hardware/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/hardware/hardware_interface_node.py to hardware_interface_node.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/sonar/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/sonar/sonar_node.py to sonar_node.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/encoders/encoder_node.py to encoder_node.cpython-310.pyc
+byte-compiling /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg/encoders/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/share/ament_index
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/share/ament_index/resource_index
+creating /home/jaegon/jaybot_ws/install/jaybot_pkg/share/ament_index/resource_index/packages
+copying resource/jaybot_pkg -> /home/jaegon/jaybot_ws/install/jaybot_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaegon/jaybot_ws/install/jaybot_pkg/share/jaybot_pkg
+running install_egg_info
+Copying ../../build/jaybot_pkg/jaybot_pkg.egg-info to /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/python3.10/site-packages/jaybot_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ackermann_node script to /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/jaybot_pkg
+Installing camera_node script to /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/jaybot_pkg
+Installing encoder_node script to /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/jaybot_pkg
+Installing hardware_interface_node script to /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/jaybot_pkg
+Installing sonar_node script to /home/jaegon/jaybot_ws/install/jaybot_pkg/lib/jaybot_pkg
+writing list of installed files to '/home/jaegon/jaybot_ws/build/jaybot_pkg/install.log'
